@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Tu código 💩</title>
+		<meta name="author" content="Jesús Marín García">
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!-- Introducción -->
+				<section data-markdown>
+					#Tu código apesta
+					## ...
+				</section>
+
+				<section data-markdown>
+					#Tu código 💩
+				</section>
+
+				<section data-markdown>
+					![Ariane 5 Vuelo 501](./img/vuelo501.gif "Ariane 5 Vuelo 501")
+					## \#NeverForget
+				</section>
+
+				<section data-markdown>
+					# 64 bit -> 16 bit
+					## 9,223,372,036,854,775,807 -> 65,536
+				</section>
+
+				<section data-markdown>
+					## Se suele hacer:
+					* TDD
+					* Pruebas de usuario
+					* Pentesting
+				</section>
+
+				<section data-markdown>
+					![Coste de la seguridad](./img/cost_security.png "Coste de la seguridad")
+
+					[Microsoft](https://www.microsoft.com/en-us/sdl/about/benefits.aspx)
+				</section>
+
+				<section data-markdown>
+					![CVEs 10/2018](./img/cve102018.png "CVEs 10/2018")
+
+					[NIST](https://nvd.nist.gov/general/visualizations/vulnerability-visualizations/cvss-severity-distribution-over-time)
+				</section>
+
+				<!-- Revisión SDLC -->
+				<section data-markdown>
+					## Diseño:
+					* Análisis de modelo de amenazas
+					* Programación formal
+				</section>
+
+				<section data-markdown>
+					## Programación:
+					* Principios de codificación segura
+					* Análisis de código
+						* Errores
+						* Olores
+						* Vulnerabilidades
+				</section>
+
+				<section data-markdown>
+					## Pruebas:
+					* Revisión de código
+					* Fuzzing
+				</section>
+
+				<!-- Fin -->
+				<section data-markdown>
+					### Jesús Marín  
+
+					Email: [contacto@jesusmg.org](mailto://contacto@jesusmg.org)  
+					Blog: [http://jesusmg.org](http://jesusmg.org)  
+					Twitter: [@_jesusmg](http://twitter.com/_jesusmg)
+				</section>		
+
+			</div>
+		</div>
+
+		<!-- Initialize Reveal -->
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				keyboard: true,
+				overview: true,
+				showNotes: false,
+				history: true,
+				center: true,
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+
+		<!-- Configure presenter keys -->
+		<script>
+			Reveal.configure({
+  				keyboard: {
+    				38: 'next',
+    				40: 'prev'
+  				}
+			});	
+	    </script>
+	</body>
+
+</html>
